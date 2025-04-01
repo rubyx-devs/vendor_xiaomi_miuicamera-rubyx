@@ -15,7 +15,7 @@ for i in {1..4}; do
 done
 
 # Concatenate the parts into one zip file
-cat "${PART_DIR}${PART_PREFIX}".{1..4}.zip > "$OUTPUT_FILE"
+cat "${PART_DIR}${PART_PREFIX}".{1..3}.zip > "$OUTPUT_FILE"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"
